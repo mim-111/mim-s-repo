@@ -10,7 +10,10 @@ body{
 font-size: 30px;
 font-weight: 500;
 line-height: normal;
-background-color:rgb(211, 146, 168);
+margin-top: 0px;
+margin-left: 80;
+margin-right: 96px;
+
 }
 
 h2{
@@ -19,7 +22,7 @@ color: black;
 font-size: 10px;
 font-weight: 100;
 line-height: normal;
-background-color: rgb(211, 146, 168);
+
 .}
 
  .btn-primary{
@@ -29,7 +32,7 @@ background-color: rgb(211, 146, 168);
     color:aliceblue;
     font-size: 10px;
     font-weight:100;
-    padding: 12px 30px;
+    padding: 12px 13px;
  }
 
 
@@ -45,11 +48,27 @@ nav > ul{
 }
 nav>ul{
     display:flex;
-    align items:center;
+    align-items:center;
+    margin: 600px;
 }
 nav li{
     list-style:none;
     margin-right: 5px;
+    margin-left: 5px;
 
 
 }
+/*header related styles*/
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+    .banner{
+        padding: 100px 32px 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .banner .profile-pic
+    {
+        width: 300px;
+    }
