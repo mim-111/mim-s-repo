@@ -1,0 +1,55 @@
+/* common shared styles*/
+body{
+
+
+    font-family:'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-title {
+    color: #272727;
+font-size: 30px;
+font-weight: 500;
+line-height: normal;
+background-color:rgb(211, 146, 168);
+}
+
+h2{
+/*sets the color of h2 element to burlywood*/
+color: black;
+font-size: 10px;
+font-weight: 100;
+line-height: normal;
+background-color: rgb(211, 146, 168);
+.}
+
+ .btn-primary{
+    border-radius: 6px;
+    background:firebrick;
+    border: 0;
+    color:aliceblue;
+    font-size: 10px;
+    font-weight:100;
+    padding: 12px 30px;
+ }
+
+
+
+/* nav related styles */
+
+
+nav > ul{
+    display: flex;
+    /*justify*/
+    
+   align-items: center;
+}
+nav>ul{
+    display:flex;
+    align items:center;
+}
+nav li{
+    list-style:none;
+    margin-right: 5px;
+
+
+}
