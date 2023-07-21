@@ -8,20 +8,24 @@ body{
 .nav-title {
     color: #272727;
 font-size: 30px;
-font-weight: 500;
+font-weight: 550;
 line-height: normal;
 margin-top: 0px;
 margin-left: 80;
 margin-right: 96px;
+margin-bottom: 25px;
+line-break: 600 px;
+line-height: 200 px;
 
 }
 
-h2{
-/*sets the color of h2 element to burlywood*/
+p{
+/*sets the color of p element to burlywood*/
 color: black;
 font-size: 10px;
-font-weight: 100;
+font-weight: 30px;
 line-height: normal;
+margin-bottom: 25px ;
 
 .}
 
@@ -31,7 +35,7 @@ line-height: normal;
     border: 0;
     color:aliceblue;
     font-size: 10px;
-    font-weight:100;
+    font-weight:15px;
     padding: 12px 13px;
  }
 
@@ -40,9 +44,10 @@ line-height: normal;
 /* nav related styles */
 
 
-nav > ul{
+nav > {
     display: flex;
-    /*justify*/
+    margin: 0 299px;
+    
     
    align-items: center;
 }
@@ -63,12 +68,53 @@ nav li{
     background-color: rgba(229, 84, 115, 0.10);
 }
     .banner{
-        padding: 100px 32px 32px;
+        padding: 30px 30px 0px 150px;
         display: flex;
-        align-items: center;
+        /*align-items: center;*/
         
     }
     .banner .profile-pic
     {
-        width: 300px;
+        
+        width: 500px;
+height: 500px;
+flex-shrink: 0;
+
+
     }
+/*.section-title{
+color: #272727;
+text-align: center;
+font-size: 80px;
+font-weight: 190;
+line-height: normal;*/
+
+        
+    
+/*.section-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 10px;
+/*line-height: 30px;*/ 
+/* 166.667% */
+    }
+    /* main section styles*/
+    /* about section styles */
+    .about{
+        padding: 100px;
+        border-radius: 10px;
+        background: white;
+        
+    }
+    .section-title{
+        color: #272727;
+        text-align:center;
+        font-size: 87px;
+        font-weight: 800;
+        }
+        .section-description{
+            color: rgba(39, 39, 39, 0.60);
+            text-align: center;
+            font-size: 10px;}
+        
+                
